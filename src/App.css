@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imgLogo{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imgMain{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 20px;
+  border-radius: 1px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logoSection{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-top: 80px;
+}
+.imgLogo{
+  margin-bottom: 10px;
+}
+.WRITE{
+  font-size: 15px;
+  color: blueviolet;
+}
+.WRITE h3{
+  margin-bottom: 0px;
+  color: firebrick;
+  margin-right: 40px;
+}
+.welcome h2{
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.SHOPPING{
+  text-align: center;
+  margin-right: 50px;
+}
+
+.input1{
+  width: 70%;
+  margin-left: 60px;
+  font-weight: bold;
+}
+.number{
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.send{
+  border-radius: 2%;
   color: white;
+  text-align: center;
+  background-color: brown;
+  margin-top: 20px;
+  height: 40px;
+  width: 70%;
+  margin-left: 60px;
+  padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+/* //send otp page CSS */
+
+.save-change{
+  border-radius: 5%;
+  color: white;
+  text-align: center;
+  background-color: brown;
+  margin-top: 90px;
+  height: 30px;
+  width: 70%;
+  margin-left: 60px;
+
+}
+.main-div{
+  background-color: aqua;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* verfiy */
+.Verify{
+  border-radius: 5%;
+  color: white;
+  text-align: center;
+  background-color: brown;
+  margin-top: 90px;
+  height: 30px;
+  width: 70%;
+  margin-left: 60px;
+
 }
